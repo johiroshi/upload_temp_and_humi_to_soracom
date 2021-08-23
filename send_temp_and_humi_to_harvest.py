@@ -12,7 +12,7 @@ import json
 interval=5 if len(sys.argv)==1 else int(sys.argv[1])
 
 def main():
-    con=serial.Serial('/dev/ttyACM0', 9600)
+    con=serial.Serial('/dev/tty****', 9600)
     print('connected.')
     while 1:
         start_time = time.time()
